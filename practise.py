@@ -1,4 +1,4 @@
-Privet
+
 # for ind, value in enumerate(zip(n, x,z)):
 #     print(ind, value)
     
