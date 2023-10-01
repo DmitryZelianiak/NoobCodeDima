@@ -4,9 +4,9 @@
     
 
 
-new_dic = {val: number for val, 
-          number in zip(val, number)}
-print(new_dic)
+# new_dic = {val: number for val, 
+#           number in zip(val, number)}
+# print(new_dic)
 
     
 
@@ -23,3 +23,21 @@ print(new_dic)
 
 # maximum = lambda x, y, z: max(x,y,z)
 # print(maximum(a,b,c))
+
+# x = "greeting from CheckiO Planet"
+# print(x.split()[0])
+
+word = 'dimidrol'
+guess = 'i'
+word_comp = len(word) * '_'
+
+word_list = list(word_comp)
+cut_word = [i for i in range(len(word)) if word[i] == guess]
+for index in cut_word:
+    word_list[index] = guess
+
+print(word_comp := ''.join(word_list))
+
+
+
+
