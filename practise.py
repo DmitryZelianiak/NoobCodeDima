@@ -24,20 +24,21 @@
 # maximum = lambda x, y, z: max(x,y,z)
 # print(maximum(a,b,c))
 
-# x = "greeting from CheckiO Planet"
-# print(x.split()[0])
+row, colum = int(input()), int(input())
 
-word = 'dimidrol'
-guess = 'i'
-word_comp = len(word) * '_'
+matrix = []
 
-word_list = list(word_comp)
-cut_word = [i for i in range(len(word)) if word[i] == guess]
-for index in cut_word:
-    word_list[index] = guess
+# for i in range(n*m):
+   
+#     matrix.append(input())
+#     if len(matrix) == m:
+#         print(*matrix)
+#         matrix.clear()
 
-print(word_comp := ''.join(word_list))
+# a = [[input() for _ in range(x)] for y in range(z)]
+
+# matrix.append([[0] * i for i in range(colum)])
 
 
-
-
+# matrix1 = [[input() for j in range(row)] for i in range(colum)]
+# print(*matrix1, sep = '\n')
